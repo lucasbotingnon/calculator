@@ -1,6 +1,7 @@
 @import "reset.css";
 
 * {
+    font-family: 'Noto Sans' !important;
     font-size: 22px;
 }
 
@@ -84,6 +85,7 @@
     -webkit-filter: brightness(1.2);
             filter: brightness(1.2);
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .numbers-box > .numbers > .col > .number:active{
@@ -116,6 +118,7 @@
     -webkit-filter: brightness(1.2);
             filter: brightness(1.2);
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .operations-box > .operations > .operation:active{
@@ -151,6 +154,7 @@
     -webkit-filter: brightness(1.2);
             filter: brightness(1.2);
     transition: all .2s ease;
+    cursor: pointer;
 }
 
 .button.reset:focus {
