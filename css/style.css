@@ -81,12 +81,14 @@
 }
 
 .numbers-box > .numbers > .col > .number:hover{
-    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
     transition: all .3s ease;
 }
 
 .numbers-box > .numbers > .col > .number:active{
-    filter: brightness(2);
+    -webkit-filter: brightness(2);
+            filter: brightness(2);
     transition: all .3s ease;
 }
 
@@ -111,12 +113,14 @@
 }
 
 .operations-box > .operations > .operation:hover{
-    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
     transition: all .3s ease;
 }
 
 .operations-box > .operations > .operation:active{
-    filter: brightness(2);
+    -webkit-filter: brightness(2);
+            filter: brightness(2);
     transition: all .3s ease;
 }
 
@@ -144,12 +148,14 @@
 }
 
 .button.reset:hover {
-    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
     transition: all .2s ease;
 }
 
 .button.reset:focus {
     outline: none;
-    filter: brightness(1.3);
+    -webkit-filter: brightness(1.3);
+            filter: brightness(1.3);
     transition: all .2s ease;
 }
